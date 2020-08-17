@@ -1,7 +1,7 @@
 pipeline {
         agent any
         environment {
-            registry = "gaya3sudhi/sprint6demo"
+            registry = "gaya3sudhi/sprint6-demo"
             registryCredential = 'docker-cred'
             dockerImage = ''
 		PROJECT_ID = 'wired-rex-283811'
